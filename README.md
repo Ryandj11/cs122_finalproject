@@ -27,3 +27,9 @@ The interface will have two city dropdowns, year and month dropdowns, and button
 We will use Python's requests library to collect daily temperature and precipitation data from the Open-Meteo Historical Weather API.
 The data will be organized into CSV files containing the date, city, mean temperature, maximum temperature, minimum temperature, and precipitation.
 This will be used to build the data selection page and allow users to save and reload the collected data.
+
+### Data Analysis and Visualization Plan - Arman Bance
+
+Arman will use pandas to calculate each city's average temperature, highest temperature, lowest temperature, and total precipitation for the selected month.
+Arman will use Matplotlib to create a line chart comparing daily temperatures and a bar chart comparing total precipitation.
+Arman will also build the results page, with chart titles, labeled axes, units, and legends where needed.
